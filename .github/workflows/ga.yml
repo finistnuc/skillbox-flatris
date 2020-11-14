@@ -1,0 +1,6 @@
+name: ga
+on: [push]
+jobs:
+  steps:
+    docker build . --tag flatris
+    
